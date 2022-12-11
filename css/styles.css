@@ -1,8 +1,11 @@
 nav{
-    background: #182B49 !important;
-    color: #ffcd00;
-    height: 50px;
+    background: #182B49;
+    height: 100px;
     ;
+}
+
+a{
+    color: #FFCD00 !important;
 }
 
 
