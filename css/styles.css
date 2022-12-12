@@ -1,11 +1,24 @@
 nav{
     background: #182B49;
     height: 100px;
-    ;
 }
 
 a{
     color: #FFCD00 !important;
+}
+
+li{
+    background-color: #182B49 !important;
+}
+
+li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+li a:hover:not(.active) {
+    background-color: #00629B;
+    color: white !important;
 }
 
 
@@ -13,4 +26,17 @@ footer{
     background: #00629B;
     color: #FFFFFF;
     height: 50px;
+}
+
+.pad{
+    padding: 0px;
+}
+
+.dkbl{
+    background-color: #182B49 !important;
+}
+
+.gold{
+    border-color: #FFCD00 !important;
+    color: #FFCD00 !important;
 }
