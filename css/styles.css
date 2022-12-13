@@ -36,9 +36,9 @@ li a{
     font-family: 'Rubik 80s Fade', cursive;
 }
 
-li a.active {
-    background-color: #04AA6D;
-    color: white;
+li a.nav-link.active {
+    color: white !important;
+    text-decoration: underline #FFCD00;
   }
 
 li a:hover:not(.active) {
