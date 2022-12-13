@@ -1,6 +1,6 @@
 nav{
     background: #182B49;
-    height: 100px;
+    height: 75px;
 }
 
 li a{
@@ -21,17 +21,31 @@ li a:hover:not(.active) {
 
 header{
     background: #C69214;
+    font-size: 8px;
+    color:#182B49;
+    padding: 5px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
 }
 
 footer{
-    padding-top: 20px;
+    padding-top: 15px !important;
     background: #00629B;
     color: #FFFFFF;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 footer span a{
-    font-size: 30px;
+    font-size: 40px;
     color: #FFFFFF;
 }
 
@@ -42,8 +56,8 @@ footer span a:hover{
 .icon{
     display: flex;
     justify-content: space-between;
-    padding-left: 35%;
-    padding-right: 35%
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .nobull{
@@ -58,7 +72,7 @@ footer ul li a{
 
 footer ul li a.active{
     font-weight: bolder;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 footer ul li a:hover:not(.active) {
@@ -69,7 +83,9 @@ footer ul li a:hover:not(.active) {
 
 footer p{
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
+    /*background:#FFCD00;*/
+    color: #182B49;
 }
 
 .nomarg{
