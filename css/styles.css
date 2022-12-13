@@ -3,12 +3,9 @@ nav{
     height: 100px;
 }
 
-a{
-    color: #FFCD00 !important;
-}
-
-li{
+li a{
     background: #182B49 !important;
+    color: #FFCD00 !important;
 }
 
 li a.active {
@@ -17,18 +14,69 @@ li a.active {
   }
 
 li a:hover:not(.active) {
-    background-color: #00629B;
+    background-color: #00629B !important;
     color: white !important;
 }
 
 
-footer{
-    background: #00629B;
-    color: #FFFFFF;
-    height: 50px;
+header{
+    background: #C69214;
 }
 
-.pad{
+footer{
+    padding-top: 20px;
+    background: #00629B;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+footer span a{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+footer span a:hover{
+    color:#C69214;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35%;
+    padding-right: 35%
+}
+
+.nobull{
+    list-style: none;
+}
+
+footer ul li a{
+    background: #00629B !important;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+footer ul li a.active{
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+footer ul li a:hover:not(.active) {
+    color: #C69214 !important;
+
+}
+
+
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
+
+.nomarg{
+    margin: 0px;
+}
+
+.nopad{
     padding: 0px;
 }
 
