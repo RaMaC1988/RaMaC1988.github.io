@@ -1,9 +1,9 @@
 /*
+font-family: 'Caveat', cursive;
 font-family: 'Roboto', sans-serif;
 font-family: 'Rubik 80s Fade', cursive;
 font-family: 'Zen Dots', cursive;
 */
-
 
 
 header{
@@ -45,13 +45,13 @@ li a:hover:not(.active) {
     border: 3px solid #C69214 !important;
     border-radius: 50% !important;
     padding: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 h1{
     display: block;
-    font-family: 'Rubik 80s Fade', cursive;
+    font-family: 'Zen Dots', cursive;
     font-size: 20px;
     text-align: center;
     color: #FFCD00;
@@ -60,13 +60,45 @@ h1{
     padding: 5px;
 }
 
+h2{
+    font-family: 'Rubik 80s Fade', cursive;
+    font-size: 25px;
+    font-variant: small-caps;
+    color: #182B49;
+    text-shadow: 0.5px 0.5px #FFCD00;
+}
+
+hr{
+    color:#C69214 !important;
+    height: 3px !important;
+}
+
+.card{
+    padding-top: 10px;
+    background: #00629B;
+    height:inherit;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card p{
+    font-size: 35px;
+    color: #FFFFFF;
+    font-family: 'Caveat', cursive;
+    text-shadow: 0.5px 0.5px #FFCD00;
+}
+
+.bg-ltbl{
+    background: #FFCD00;
+}
 .right{
     text-align: right;
 }
 
 .center{
     text-align: center;
-    border: 3px solid #C69214;
 }
 
 .left{
@@ -121,9 +153,8 @@ footer ul li a:hover:not(.active) {
 footer p{
     text-align: center;
     font-size: 10px;
-    font-family: 'Rubik 80s Fade', cursive;
-    /*background:#FFCD00;*/
-    color: #182B49;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
 }
 
 .nomarg{
