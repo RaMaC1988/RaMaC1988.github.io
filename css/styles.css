@@ -4,17 +4,13 @@ font-family: 'Rubik 80s Fade', cursive;
 font-family: 'Zen Dots', cursive;
 */
 
-/*
-*{
-    font-family:  'Rubik 80s Fade', cursive;
-}
-*/
+
 
 header{
     background: #C69214;
-    font-size: 10px;
+    font-size: 8px;
     color:#182B49;;
-    font-family: 'Zen Dots', cursive;
+    font-family: 'Roboto', sans-serif;
     justify-content:space-evenly;
     padding: 5px;
 }
@@ -24,16 +20,15 @@ nav{
     height: 100px;
 }
 .navbar-brand{
-    font-size: 25px;
-    font-family: 'Rubik 80s Fade', cursive;
-    font-weight:lighter !important;
+    font-size: 20px;
+    font-family: 'Zen Dots', cursive;
     color: #FFCD00 !important;
 }
 li a{
     background: #182B49 !important;
     color: #FFCD00 !important;
     font-weight:lighter !important;
-    font-family: 'Rubik 80s Fade', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 li a.nav-link.active {
@@ -46,7 +41,24 @@ li a:hover:not(.active) {
     color: white !important;
 }
 
+.clown{
+    border: 3px solid #C69214 !important;
+    border-radius: 50% !important;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+h1{
+    display: block;
+    font-family: 'Rubik 80s Fade', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: #FFCD00;
+    background: #182B49;
+    border-top: 3px solid #C69214;
+    padding: 5px;
+}
 
 .right{
     text-align: right;
@@ -54,21 +66,22 @@ li a:hover:not(.active) {
 
 .center{
     text-align: center;
+    border: 3px solid #C69214;
 }
 
 .left{
     text-align: left;
 }
 
+
 footer{
     padding-top: 15px !important;
     background: #00629B;
     color: #FFFFFF;
-    font-size: 14px;
 }
 
 footer span a{
-    font-size: 40px;
+    font-size: 30px;
     color: #FFFFFF;
 }
 
@@ -90,13 +103,13 @@ footer ul li a{
     background: #00629B !important;
     color: #FFFFFF !important;
     text-decoration: none;
-    font-family:'Rubik 80s Fade', cursive;
-    font-weight: lighter;
+    font-family:'Zen Dots', cursive;
+    font-size: 12px;
 }
 
 footer ul li a.active{
     font-weight: bolder;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 footer ul li a:hover:not(.active) {
@@ -108,7 +121,7 @@ footer ul li a:hover:not(.active) {
 footer p{
     text-align: center;
     font-size: 10px;
-    font-family: 'Zen Dots', cursive;
+    font-family: 'Rubik 80s Fade', cursive;
     /*background:#FFCD00;*/
     color: #182B49;
 }
