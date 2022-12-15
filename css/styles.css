@@ -5,12 +5,16 @@ font-family: 'Rubik 80s Fade', cursive;
 font-family: 'Zen Dots', cursive;
 */
 
+body{
+    background: #00629B;
+}
+
 
 header{
-    background: #C69214;
+    background: #FFCD00;
     font-size: 8px;
     color:#182B49;;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Caveat', cursive;
     justify-content:space-evenly;
     padding: 5px;
 }
@@ -22,6 +26,7 @@ nav{
 .navbar-brand{
     font-size: 20px;
     font-family: 'Zen Dots', cursive;
+    font-variant: small-caps;
     color: #FFCD00 !important;
 }
 li a{
@@ -53,6 +58,7 @@ h1{
     display: block;
     font-family: 'Zen Dots', cursive;
     font-size: 20px;
+    font-variant: small-caps;
     text-align: center;
     color: #FFCD00;
     background: #182B49;
@@ -61,11 +67,11 @@ h1{
 }
 
 h2{
-    font-family: 'Rubik 80s Fade', cursive;
+    font-family: 'Zen Dots', cursive;
     font-size: 25px;
     font-variant: small-caps;
     color: #182B49;
-    text-shadow: 0.5px 0.5px #FFCD00;
+    text-shadow: 1px 1px #FFCD00;
 }
 
 hr{
@@ -158,11 +164,11 @@ footer p{
 }
 
 .nomarg{
-    margin: 0px;
+    margin: 0px !important;
 }
 
 .nopad{
-    padding: 0px;
+    padding: 0px !important;
 }
 
 /*
