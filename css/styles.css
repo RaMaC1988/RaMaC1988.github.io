@@ -6,22 +6,23 @@ font-family: 'Zen Dots', cursive;
 */
 
 body{
-    background: #00629B;
+    background: #182B49;
 }
 
 
 header{
     background: #FFCD00;
-    font-size: 8px;
+    font-size: 10px;
     color:#182B49;;
     font-family: 'Caveat', cursive;
-    justify-content:space-evenly;
+    text-align: center;
     padding: 5px;
 }
 
 nav{
     background: #182B49;
     height: 100px;
+    border-bottom: 3px solid #C69214;
 }
 .navbar-brand{
     font-size: 20px;
@@ -62,7 +63,7 @@ h1{
     text-align: center;
     color: #FFCD00;
     background: #182B49;
-    border-top: 3px solid #C69214;
+    border-bottom: 3px solid #C69214;
     padding: 5px;
 }
 
