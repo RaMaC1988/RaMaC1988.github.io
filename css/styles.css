@@ -3,6 +3,7 @@ font-family: 'Caveat', cursive;
 font-family: 'Roboto', sans-serif;
 font-family: 'Rubik 80s Fade', cursive;
 font-family: 'Zen Dots', cursive;
+font-family: 'Special Elite', cursive;
 */
 
 body{
@@ -34,13 +35,9 @@ li a{
     background: #182B49 !important;
     color: #FFCD00 !important;
     font-weight:lighter !important;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Special Elite', cursive;
 }
 
-li a.nav-link.active {
-    color: white !important;
-    text-decoration: underline #FFCD00;
-  }
 
 li a:hover:not(.active) {
     background-color: #00629B !important;
@@ -73,6 +70,10 @@ h2{
     font-variant: small-caps;
     color: #182B49;
     text-shadow: 1px 1px #FFCD00;
+}
+
+h3{
+    font-family: 'Special Elite', cursive;  
 }
 
 hr{
@@ -160,7 +161,7 @@ footer ul li a:hover:not(.active) {
 footer p{
     text-align: center;
     font-size: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Special Elite', cursive;
     color: #FFFFFF;
 }
 
